@@ -9,10 +9,6 @@ Software installation required:</br>
 1.	Nodejs (https://nodejs.org/en/)</br>
 2.	Angular CLI (https://cli.angular.io/)</br>
 </br>
-User Instructions:</br>
-Navigate to the folder using cmd.</br>
-Run “ng serve” to view the application at url - http://localhost:4200/ in browser.</br>
-</br>
 Application Workflow:</br>
 AppModule: The root module of the application.</br>
 AppComponent: The root component, also showing top news sources received using getSources() method through API call.	</br>
