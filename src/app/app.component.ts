@@ -31,6 +31,7 @@ export class AppComponent implements OnInit {
       );
   }
 
+  //receiving data and pushing data of interest in article array
   getFeed(id, name) {
     this.article = [];
     this.show = false;
