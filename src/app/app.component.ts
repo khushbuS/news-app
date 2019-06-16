@@ -37,9 +37,8 @@ export class AppComponent implements OnInit {
     this.source = name;
     this.newsApi.getFeedFrom(id).subscribe(
       data => {
-        console.log(data);
         for (let i in data["articles"]) {
-          this.article.push({ title: data["articles"].title, url: data["articles"].url, urlToImage: data["articles"].urlToImage, description: data["articles"].description });
+          this.article.push({ title: data["articles"][i].title, url: data["articles"][i].url, urlToImage: data["articles"][i].urlToImage, description: data["articles"][i].description });
         }
       }
     );
