@@ -4,14 +4,15 @@ Angular Material (https://material.angular.io/)</br>
 SCSS (https://sass-lang.com/)</br>
 mdc-layout-grid (https://github.com/material-components/material-components-web/tree/master/packages/mdc-layout-grid)</br>
 API Used: https://newsapi.org/#documentation</br>
-
+</br>
 Software installation required:</br>
 1.	Nodejs (https://nodejs.org/en/)</br>
 2.	Angular CLI (https://cli.angular.io/)</br>
+</br>
 User Instructions:</br>
-Unzip the folder called “nickelfox-angular-assignment.zip”.</br>
 Navigate to the folder using cmd.</br>
 Run “ng serve” to view the application at url - http://localhost:4200/ in browser.</br>
+</br>
 Application Workflow:</br>
 AppModule: The root module of the application.</br>
 AppComponent: The root component, also showing top news sources received using getSources() method through API call.	</br>
