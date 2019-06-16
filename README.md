@@ -1,4 +1,4 @@
-Technology Used: </br>
+Technologies Used: </br>
 Angular (https://angular.io/) </br>
 Angular Material (https://material.angular.io/)</br>
 SCSS (https://sass-lang.com/)</br>
